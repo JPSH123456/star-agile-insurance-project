@@ -17,5 +17,5 @@
     become_user : root
 
   - name: Deploy Docker Container
-    command: docker run -itd -p 8090:8081 jpsh123456/banking-finance-image
+    command: docker run -itd -p 8090:8081 jpsh123456/banking-finance-image:latest
 
